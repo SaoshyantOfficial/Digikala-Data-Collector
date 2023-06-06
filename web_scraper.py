@@ -2,10 +2,9 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
-
 from bs4 import BeautifulSoup
 import time
-
+import csv
 options = webdriver.FirefoxOptions()
 options.add_argument('--headless')
 driver = webdriver.Firefox()
@@ -24,7 +23,7 @@ except:
      
 page_count = 1
 try:
-     # get the number of opinion pages
+     # get the number of opinion pages and convert it to english number
      page_count = driver.find_element(By.CSS_SELECTOR , 'div.font-body:nth-child(2)')
      span_elements = page_count.find_elements(By.TAG_NAME,'span')
      last_span_element = span_elements[-1]
@@ -35,6 +34,7 @@ try:
 except:
      print('the product has just one opinion')
 
+# list of opinions
 opinion_list = []
 
 opinion_tag = driver.find_element(By.CSS_SELECTOR , 'div.mt-3:nth-child(2) > div:nth-child(2)')
@@ -57,5 +57,10 @@ for i in range(page_count):
           
 print(len(opinion_list))
 
+#save the opinions
+with open('opinions.csv', 'w') as csvfile:
+    writer = csv.writer(csvfile)
+    for element in opinion_list:
+        writer.writerow([element])
 
-# driver.quit()
+driver.quit()
