@@ -2,20 +2,34 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
-from bs4 import BeautifulSoup
 import time
-import csv
-options = webdriver.FirefoxOptions()
-options.add_argument('--headless')
-driver = webdriver.Firefox()
 
-class data_collector:
+
+class Digikala:
+
      # list of opinions
      opinion_list = []
-     
+
      def __init__(self , product_url):
+
+          # product url that contains reviews
           self.product_url = product_url
-          # driver.set_page_load_timeout(6)
+
+
+     def driver_options():
+
+          options = webdriver.FirefoxOptions()
+          options.add_argument('--headless')
+          driver = webdriver.Firefox()
+          return driver
+
+
+     def review_collector():
+
+          # Get driver options
+          driver = self.driver_options()
+
+          # Get target url
           driver.get(self.product_url)
           
           try:
