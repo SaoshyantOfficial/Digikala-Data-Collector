@@ -15,9 +15,17 @@
     text-align: center;
     background-color: rgb(14, 0, 76);
     /* height: 60px; */
-    font-size: 40px;
+    font-size: 55px;
     color: aliceblue;
   }
+
+  footer{
+    text-align: center;
+    background-color: rgb(14, 0, 76);
+    /* height: 60px; */
+    font-size: 25px;
+    color: aliceblue;
+   }
 
   h1 {
     text-align: center;

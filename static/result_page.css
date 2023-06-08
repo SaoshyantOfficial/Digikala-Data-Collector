@@ -1,0 +1,21 @@
+.header {
+     text-align: center;
+     background-color: rgb(14, 0, 76);
+     /* height: 60px; */
+     font-size: 55px;
+     color: aliceblue;
+   }
+ 
+footer{
+
+     text-align: center;
+     background-color: rgb(14, 0, 76);
+     /* height: 60px; */
+     font-size: 25px;
+     color: aliceblue;
+     bottom: 0;
+     width: 100%    ;
+     position: absolute;
+
+
+    }
