@@ -92,6 +92,6 @@ class data_collector:
 product_url_list = ['https://www.digikala.com/product/dkp-592455/%D9%81%D8%B1%DA%A9%D9%86%D9%86%D8%AF%D9%87-%D9%85%D9%88-%D9%85%D8%AE%D8%B1%D9%88%D8%B7%DB%8C-%D9%85%D8%AE%D9%85%D9%84%DB%8C-%D9%BE%D8%B1%D9%88%D9%85%D8%A7%D8%B1%D9%88%D9%86-rl-9905/','https://www.digikala.com/product/dkp-7919668/%DA%A9%D9%81%D8%B4-%D8%B1%D9%88%D8%B2%D9%85%D8%B1%D9%87-%D9%85%D8%B1%D8%AF%D8%A7%D9%86%D9%87-%DA%86%D8%B1%D9%85-%D8%B9%D8%B7%D8%A7%D8%B1%D8%AF-%D9%85%D8%AF%D9%84-sh05/',
                     'https://www.digikala.com/product/dkp-5476010/%D9%85%D8%A7%D9%86%DB%8C%D8%AA%D9%88%D8%B1-%D8%A7%DB%8C%D8%B3%D9%88%D8%B3-%D9%85%D8%AF%D9%84-vg328h1b-%D8%B3%D8%A7%DB%8C%D8%B2-315-%D8%A7%DB%8C%D9%86%DA%86/']
 
-for i in product_url_list:
-     data = data_collector(i)
+# for i in product_url_list:
+#      data = data_collector(i)
 # temp = data_collector('https://www.digikala.com/product/dkp-7919668/%DA%A9%D9%81%D8%B4-%D8%B1%D9%88%D8%B2%D9%85%D8%B1%D9%87-%D9%85%D8%B1%D8%AF%D8%A7%D9%86%D9%87-%DA%86%D8%B1%D9%85-%D8%B9%D8%B7%D8%A7%D8%B1%D8%AF-%D9%85%D8%AF%D9%84-sh05/')
