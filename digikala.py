@@ -2,36 +2,22 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
+from bs4 import BeautifulSoup
 import time
+import csv
+options = webdriver.FirefoxOptions()
+options.add_argument('--headless')
+driver = webdriver.Firefox()
 
-
-class Digikala:
-
+class data_collector:
      # list of opinions
      opinion_list = []
 
      def __init__(self , product_url):
-
-          # product url that contains reviews
           self.product_url = product_url
-
-
-     def driver_options():
-
-          options = webdriver.FirefoxOptions()
-          options.add_argument('--headless')
-          driver = webdriver.Firefox()
-          return driver
-
-
-     def review_collector():
-
-          # Get driver options
-          driver = self.driver_options()
-
-          # Get target url
+          # driver.set_page_load_timeout(6)
           driver.get(self.product_url)
-          
+
           try:
                # click on show more button
                show_more_button = driver.find_element(By.CSS_SELECTOR , 'div.mt-3:nth-child(2) > div:nth-child(2) > div:nth-child(7) > button:nth-child(1) > div:nth-child(2) > div:nth-child(2)')
@@ -41,7 +27,7 @@ class Digikala:
                show_more_button.click()
           except:
                print('the show more button not found')
-               
+
           page_count = 1
           try:
                # get the number of opinion pages and convert it to english number
@@ -50,7 +36,7 @@ class Digikala:
                last_span_element = span_elements[-1]
                persian_number = last_span_element.text
                page_count = persian_number.translate(str.maketrans("۰۱۲۳۴۵۶۷۸۹", "0123456789"))
-               print('the number of pages : ' , int(page_count)) 
+               print('the number of pages : ' , int(page_count))
                page_count = int(page_count)
           except:
                print('the product has just one opinion')
@@ -74,7 +60,7 @@ class Digikala:
                     next_button.click()
                except:
                     print('breaking the loop')
-                    
+
           print(len(self.opinion_list))
 
           #save the opinions
@@ -85,7 +71,7 @@ class Digikala:
 
           driver.quit()
 
-product_url_list = ['https://www.digikala.com/product/dkp-7919668/%DA%A9%D9%81%D8%B4-%D8%B1%D9%88%D8%B2%D9%85%D8%B1%D9%87-%D9%85%D8%B1%D8%AF%D8%A7%D9%86%D9%87-%DA%86%D8%B1%D9%85-%D8%B9%D8%B7%D8%A7%D8%B1%D8%AF-%D9%85%D8%AF%D9%84-sh05/', 
-                    'https://www.digikala.com/product/dkp-5476010/%D9%85%D8%A7%D9%86%DB%8C%D8%AA%D9%88%D8%B1-%D8%A7%DB%8C%D8%B3%D9%88%D8%B3-%D9%85%D8%AF%D9%84-vg328h1b-%D8%B3%D8%A7%DB%8C%D8%B2-315-%D8%A7%DB%8C%D9%86%DA%86/']      
+product_url_list = ['https://www.digikala.com/product/dkp-7919668/%DA%A9%D9%81%D8%B4-%D8%B1%D9%88%D8%B2%D9%85%D8%B1%D9%87-%D9%85%D8%B1%D8%AF%D8%A7%D9%86%D9%87-%DA%86%D8%B1%D9%85-%D8%B9%D8%B7%D8%A7%D8%B1%D8%AF-%D9%85%D8%AF%D9%84-sh05/',
+                    'https://www.digikala.com/product/dkp-5476010/%D9%85%D8%A7%D9%86%DB%8C%D8%AA%D9%88%D8%B1-%D8%A7%DB%8C%D8%B3%D9%88%D8%B3-%D9%85%D8%AF%D9%84-vg328h1b-%D8%B3%D8%A7%DB%8C%D8%B2-315-%D8%A7%DB%8C%D9%86%DA%86/']
 
 temp = data_collector('https://www.digikala.com/product/dkp-7919668/%DA%A9%D9%81%D8%B4-%D8%B1%D9%88%D8%B2%D9%85%D8%B1%D9%87-%D9%85%D8%B1%D8%AF%D8%A7%D9%86%D9%87-%DA%86%D8%B1%D9%85-%D8%B9%D8%B7%D8%A7%D8%B1%D8%AF-%D9%85%D8%AF%D9%84-sh05/')
