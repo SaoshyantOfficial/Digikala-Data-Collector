@@ -1,52 +1,4 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-  <title>URL Form</title>
-  <!-- Load Bootstrap CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css">
-
-  <!-- Custom styles -->
-  <style>
-    /* Center the form container */
-    .form-container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-    }
-
-    /* Style the form */
-    form {
-      max-width: 500px;
-      margin: auto;
-    }
-
-  </style>
-</head>
-
-<body>
-  <div class="form-container">
-    <form method="POST" action="/submit" name="url-form">
-      <!-- Text field to get URL -->
-      <div class="mb-3">
-        <label for="url-input-1" class="form-label">Enter URL 1:</label>
-        <input type="text" id="url-input-1" name="url1" class="form-control" placeholder="https://example.com" required>
-      </div>
-
-      <!-- Container for additional text fields and buttons -->
-        <div id="additional-fields-container"></div>
-        <button type="button" id="add-button" class="btn btn-primary me-2">Add field</button>
-        <button type="button" id="delete-button" class="btn btn-danger">Delete field</button>
-        <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
-  </div>
-
-  <!-- Load Bootstrap JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
-
-  <script>
-    const addButton = document.getElementById('add-button');
+const addButton = document.getElementById('add-button');
     const deleteButton = document.getElementById('delete-button');
     const additionalFieldsContainer = document.getElementById('additional-fields-container');
 
@@ -95,7 +47,6 @@
 
 
 // check that all text fields should be fill
-
 // Select the form and submit button
 const form = document.querySelector('form');
 const submitButton = document.querySelector('button[type="submit"]');
@@ -126,10 +77,3 @@ submitButton.addEventListener('click', (event) => {
     alert('Please fill in all URL fields.');
   }
 });
-
-
-
-  </script>
-</body>
-
-</html>

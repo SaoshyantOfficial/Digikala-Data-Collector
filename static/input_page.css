@@ -1,0 +1,27 @@
+.form-container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+   }
+
+   
+   form {
+     max-width: 500px;
+     margin: auto;
+   }
+
+   .header {
+    text-align: center;
+    background-color: rgb(14, 0, 76);
+    /* height: 60px; */
+    font-size: 40px;
+    color: aliceblue;
+  }
+
+  h1 {
+    text-align: center;
+    padding-top: 20px;
+  }
+
+ 

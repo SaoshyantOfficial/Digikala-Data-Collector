@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>URL Form</title>
+  <!-- Load Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../static/input_page.css">
+</head>
+<header class="header">Saoshyant</header>
+<body>
+  <!-- <h1>Digikala Web scraper</h1> -->
+  <div style="text-align: center;  padding-top: 30px;">
+    <img src="../static/digikala_logo.png" alt="Description of image">
+  </div>
+  <div class="form-container">
+    <form method="POST" action="/submit" name="url-form">
+      <!-- Text field to get URL -->
+      <div class="mb-3">
+        <label for="url-input-1" class="form-label">Enter URL 1:</label>
+        <input type="text" id="url-input-1" name="url1" class="form-control" placeholder="https://example.com" required>
+      </div>
+
+      <!-- Container for additional text fields and buttons -->
+        <div id="additional-fields-container"></div>
+        <button type="button" id="add-button" class="btn btn-primary me-2">Add URL</button>
+        <button type="button" id="delete-button" class="btn btn-danger">Delete URL</button>
+        <button type="submit" class="btn btn-primary">Scrap</button>
+    </form>
+  </div>
+
+  <!-- Load Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../static/js/input_page.js"></script>
+
+</body>
+
+</html>
