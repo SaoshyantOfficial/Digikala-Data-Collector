@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>URL Form</title>
+  <!-- Load Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css">
+
+  <!-- Custom styles -->
+  <style>
+    /* Center the form container */
+    .form-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    /* Style the form */
+    form {
+      max-width: 500px;
+      margin: auto;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="form-container">
+    <form method="POST" action="/submit">
+      <!-- Text field to get URL -->
+      <div class="mb-3">
+        <label for="url-input-1" class="form-label">Enter URL 1:</label>
+        <input type="text" id="url-input-1" name="url1" class="form-control" placeholder="https://example.com" required>
+      </div>
+
+      <!-- Container for additional text fields and buttons -->
+        <div id="additional-fields-container"></div>
+        <button type="button" id="add-button" class="btn btn-primary me-2">Add field</button>
+        <button type="button" id="delete-button" class="btn btn-danger">Delete field</button>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+
+  <!-- Load Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    const addButton = document.getElementById('add-button');
+    const deleteButton = document.getElementById('delete-button');
+    const additionalFieldsContainer = document.getElementById('additional-fields-container');
+
+    // Function to add a new URL text field
+    const addUrlField = () => {
+      // Find the number of existing URL text fields
+      const numUrlInputs = document.querySelectorAll('input[name^="url"]').length;
+
+      // Create a new URL text field with a unique ID and name
+      const urlInput = document.createElement('input');
+      urlInput.type = 'text';
+      urlInput.name = `url${numUrlInputs + 1}`;
+      urlInput.id = `url-input-${numUrlInputs + 1}`;
+      urlInput.placeholder = `https://example.com`;
+      urlInput.classList.add('form-control');
+
+      // Create a new label for the URL text field
+      const label = document.createElement('label');
+      label.textContent = `Enter URL ${numUrlInputs + 1}:`;
+      label.htmlFor = `url-input-${numUrlInputs + 1}`;
+      label.classList.add('form-label');
+
+      // Create a container for the label and URL input
+      const additionalField = document.createElement('div');
+      additionalField.classList.add('mb-3');
+      additionalField.appendChild(label);
+      additionalField.appendChild(urlInput);
+
+      // Append the new URL text field to the container
+      additionalFieldsContainer.appendChild(additionalField);
+    };
+
+    // Function to delete the last added URL text field
+    const deleteUrlField = () => {
+      // Find the last added URL text field
+      const lastUrlInput = additionalFieldsContainer.lastChild;
+      if (lastUrlInput !== null) {
+        // Remove the last added URL text field
+        additionalFieldsContainer.removeChild(lastUrlInput);
+      }
+    };
+
+    addButton.addEventListener('click', addUrlField);
+    deleteButton.addEventListener('click', deleteUrlField);
+
+
+
+
+
+
+
+
+
+
+// check that all text fields should be fill
+
+// Select the form and submit button
+const form = document.querySelector('form');
+const submitButton = document.querySelector('button[type="submit"]');
+
+// Function to check if any URL field is empty
+const checkEmptyFields = () => {
+  const urlInputs = document.querySelectorAll('input[name^="url"]');
+  let isEmpty = false;
+
+  // Loop through each URL field and check if it's empty
+  urlInputs.forEach((input) => {
+    if (input.value.trim() === '') {
+      isEmpty = true;
+    }
+  });
+
+  return isEmpty;
+};
+
+// Add event listener to the submit button
+submitButton.addEventListener('click', (event) => {
+  // Call the checkEmptyFields function to see if any fields are empty
+  if (checkEmptyFields()) {
+    // Prevent the form from submitting
+    event.preventDefault();
+
+    // Alert the user to fill in the empty fields
+    alert('Please fill in all URL fields.');
+  }
+});
+
+
+
+  </script>
+</body>
+
+</html>
