@@ -10,9 +10,9 @@ Instructions for using this tool are explained below in gettinh started section.
 
 ## Getting Started
 
-Clone the repository <br>
+### Clone the repository <br>
 open your terminal and clone the repository <br>
-Inline `clone code` <br>
+Inline code `clone code` <br>
 clone with HTTPS <br>
 
     git clone https://github.com/SaoshyantOfficial/Digikala-Data-Collector.git
@@ -25,7 +25,7 @@ Install prerequisites if you dont have them <br>
 + selenium 
 + flask 
 + bs4
-Inline `install prerequisites` <br>
+Inline code `install prerequisites` <br>
 
 selenium <br>
 
@@ -36,5 +36,14 @@ flask <br>
 BeautifulSoup <br>
 
     pip install bs4
+### run the code in yor terminal or in your text editor
+Inline code `run the code in terminal` <br>
+    
+    python user_interface.py
+  
+  
+
+
+
 
 
