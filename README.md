@@ -41,7 +41,20 @@ Inline code `run the code in terminal` <br>
     
     python user_interface.py
   
-  
+### run the interface 
+ open your browser and type this address
+ 
+     http://127.0.0.1:5000/
+### add urls
+go to your considered product page in digikala.com website and copy this main url <br>
+Once you have added all the desired urls, click on the scrap option <br>
+
+### Web scraping
+Web scraping strats to extract all opinions about your considered product <br>
+
+### download opinions file
+all opinions about your choosen product are extracted and you can download them in a ad `.csv` file from result page
+
 
 
 
