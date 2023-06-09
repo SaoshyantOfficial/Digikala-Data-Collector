@@ -50,14 +50,13 @@ go to your considered product page in digikala.com website and copy this main ur
 Once you have added all the desired urls, click on the scrap option <br>
 
 ![add_urls](https://github.com/SaoshyantOfficial/Digikala-Data-Collector/blob/master/screenshots/Screenshot_20230608_161852.png)
-![add_more_urls](https://github.com/SaoshyantOfficial/Digikala-Data-Collector/blob/master/screenshots/Screenshot_20230608_161906.png)
 
 ### Web scraping
 Web scraping strats to extract all opinions about your considered product <br>
 
 ### download opinions file
 all opinions about your choosen product are extracted and you can download them in a ad `.csv` file from result page
-
+![download_gif](https://github.com/SaoshyantOfficial/Digikala-Data-Collector/blob/master/screenshots/digi_download.gif)
 *** 
 
 ## Goals
