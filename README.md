@@ -45,6 +45,7 @@ Inline code `run the code in terminal` <br>
  open your browser and type this address
  
      http://127.0.0.1:5000/
+![code_running](https://github.com/SaoshyantOfficial/Digikala-Data-Collector/blob/master/screenshots/code_running.png)
 ### add urls
 go to your considered product page in digikala.com website and copy this main url <br>
 Once you have added all the desired urls, click on the scrap option <br>
