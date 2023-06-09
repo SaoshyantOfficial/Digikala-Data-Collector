@@ -55,12 +55,15 @@ Web scraping strats to extract all opinions about your considered product <br>
 ### download opinions file
 all opinions about your choosen product are extracted and you can download them in a ad `.csv` file from result page
 
+*** 
+
 ## Goals
 
-> It is an open source tool and is made available to all interested people so that they can do their own research or projects with the help of this tool faster and more easily. <br>
-> The use of this tool is free and open, and also developers can upgrade this tool. <br>
-> Hoping to influence the progress of the data scientist community. <br>
-> Enjoy using this tool
+It is an open source tool and is made available to all interested people so that they can do their own research or projects with the help of this tool faster and more easily. <br>
+The use of this tool is free and open, and also developers can upgrade this tool. <br>
+Hoping to influence the progress of the data scientist community. <br>
+Enjoy using this tool <br>
+<br>
 **Saoshyant Team**
 
 
