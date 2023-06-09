@@ -64,6 +64,7 @@ The use of this tool is free and open, and also developers can upgrade this tool
 Hoping to influence the progress of the data scientist community. <br>
 Enjoy using this tool <br>
 <br>
-**Saoshyant Team**
+**Saoshyant Team** <br>
 
+**The first relesase in Spring 2023**
 
