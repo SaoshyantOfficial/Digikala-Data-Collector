@@ -11,22 +11,21 @@ Instructions for using this tool are explained below in gettinh started section.
 ## Getting Started
 
 > Clone the repository
-open your terminal and clone the repository
-Inline `clone code`
-clone with https
+open your terminal and clone the repository <br>
+Inline `clone code` <br>
+clone with https <br>
 
     git clone https://github.com/SaoshyantOfficial/Digikala-Data-Collector.git
-clone with sssh
+clone with sssh <br>
 
     git clone git@github.com:SaoshyantOfficial/Digikala-Data-Collector.git
 
-> Install prerequisites if you dont have them
-prerequisites
+> Install prerequisites if you dont have them <br>
+prerequisites 
 + selenium 
 + flask 
 + bs4
-Inline `install prerequisites`
-clone with https
+Inline `install prerequisites` <br>
 
     pip install selenium
     pip install flask
