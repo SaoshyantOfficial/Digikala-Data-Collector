@@ -49,6 +49,9 @@ Inline code `run the code in terminal` <br>
 go to your considered product page in digikala.com website and copy this main url <br>
 Once you have added all the desired urls, click on the scrap option <br>
 
+![add_urls](https://github.com/SaoshyantOfficial/Digikala-Data-Collector/blob/master/screenshots/Screenshot_20230608_161852.png)
+![add_more_urls](https://github.com/SaoshyantOfficial/Digikala-Data-Collector/blob/master/screenshots/Screenshot_20230608_161906.png)
+
 ### Web scraping
 Web scraping strats to extract all opinions about your considered product <br>
 
@@ -65,7 +68,8 @@ Hoping to influence the progress of the data scientist community. <br>
 Enjoy using this tool <br>
 <br>
 
-    **Saoshyant Team** <br>
+**Saoshyant Team** <br>
 
-    **The first relesase in Spring 2023**
+**The first relesase in Spring 2023** <br>
+
 
