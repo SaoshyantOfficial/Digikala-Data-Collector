@@ -47,22 +47,22 @@ Inline code `run the code in terminal` <br>
      http://127.0.0.1:5000/
 ![code_running](https://github.com/SaoshyantOfficial/Digikala-Data-Collector/blob/master/screenshots/code_running.png)
 ### add urls
-go to your considered product page in digikala.com website and copy this main url <br>
-Once you have added all the desired urls, click on the scrap option <br>
+go to your considered product page in digikala.com website and copy main url <br>
+Once you have added all the desired urls, click on the scrap button <br>
 
 ![add_urls](https://github.com/SaoshyantOfficial/Digikala-Data-Collector/blob/master/screenshots/Screenshot_20230608_161852.png)
 
 ### Web scraping
-Web scraping strats to extract all opinions about your considered product <br>
+Web scraper starts to extract all reviews about your considered product <br>
 
 ### download opinions file
-all opinions about your choosen product are extracted and you can download them in a ad `.csv` file from result page
+Then all reviews about your choosen product are extracted and you can download them in a ad `.csv` file from result page
 ![download_gif](https://github.com/SaoshyantOfficial/Digikala-Data-Collector/blob/master/screenshots/digi_download.gif)
 *** 
 
 ## Goals
 
-It is an open source tool and is made available to all interested people so that they can do their own research or projects with the help of this tool faster and more easily. <br>
+It is an open source tool and is available to all interested people so they can do their own research or projects with the help of this tool faster and more easily. <br>
 The use of this tool is free and open, and also developers can upgrade this tool. <br>
 Hoping to influence the progress of the data scientist community. <br>
 Enjoy using this tool <br>
