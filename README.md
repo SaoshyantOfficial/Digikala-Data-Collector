@@ -62,7 +62,7 @@ Then all reviews about your choosen product are extracted and you can download t
 
 ## Goals
 
-It is an open source tool and is available to all interested people so they can do their own research or projects with the help of this tool faster and more easily. <br>
+It is an open source tool and is available for all interested people so they can do their own research or projects with the help of this tool faster and easier. <br>
 The use of this tool is free and open, and also developers can upgrade this tool. <br>
 Hoping to influence the progress of the data scientist community. <br>
 Enjoy using this tool <br>
