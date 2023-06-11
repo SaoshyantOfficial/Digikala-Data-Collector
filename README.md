@@ -70,6 +70,6 @@ Enjoy using this tool <br>
 
 **Saoshyant Team** <br>
 
-**The first relesase in Spring 2023** <br>
+**The first release in Spring 2023** <br>
 
 
