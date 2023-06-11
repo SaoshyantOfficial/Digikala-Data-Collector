@@ -1,0 +1,276 @@
+occurred date & time: 2023-06-11 22:08:09 WARNING  
+file name: _internal.py
+line number: 224 
+error:  * Debugger is active!
+occurred date & time: 2023-06-11 22:08:09 INFO     
+file name: _internal.py
+line number: 224 
+error:  * Debugger PIN: 820-453-325
+occurred date & time: 2023-06-11 22:08:18 INFO     
+file name: _internal.py
+line number: 224 
+error: 127.0.0.1 - - [11/Jun/2023 22:08:18] "GET / HTTP/1.1" 200 -
+occurred date & time: 2023-06-11 22:08:18 INFO     
+file name: _internal.py
+line number: 224 
+error: 127.0.0.1 - - [11/Jun/2023 22:08:18] "GET /static/input_page.css HTTP/1.1" 200 -
+occurred date & time: 2023-06-11 22:08:18 INFO     
+file name: _internal.py
+line number: 224 
+error: 127.0.0.1 - - [11/Jun/2023 22:08:18] "GET /static/digikala_logo.png HTTP/1.1" 200 -
+occurred date & time: 2023-06-11 22:08:18 INFO     
+file name: _internal.py
+line number: 224 
+error: 127.0.0.1 - - [11/Jun/2023 22:08:18] "GET /static/scrap.gif HTTP/1.1" 200 -
+occurred date & time: 2023-06-11 22:08:18 INFO     
+file name: _internal.py
+line number: 224 
+error: 127.0.0.1 - - [11/Jun/2023 22:08:18] "[36mGET /static/js/input_page.js HTTP/1.1[0m" 304 -
+occurred date & time: 2023-06-11 22:09:28 INFO     
+file name: _internal.py
+line number: 224 
+error: 127.0.0.1 - - [11/Jun/2023 22:09:28] "GET / HTTP/1.1" 200 -
+occurred date & time: 2023-06-11 22:09:28 INFO     
+file name: _internal.py
+line number: 224 
+error: 127.0.0.1 - - [11/Jun/2023 22:09:28] "[36mGET /static/input_page.css HTTP/1.1[0m" 304 -
+occurred date & time: 2023-06-11 22:09:28 INFO     
+file name: _internal.py
+line number: 224 
+error: 127.0.0.1 - - [11/Jun/2023 22:09:28] "[36mGET /static/js/input_page.js HTTP/1.1[0m" 304 -
+occurred date & time: 2023-06-11 22:09:28 INFO     
+file name: _internal.py
+line number: 224 
+error: 127.0.0.1 - - [11/Jun/2023 22:09:28] "GET /static/scrap.gif HTTP/1.1" 200 -
+occurred date & time: 2023-06-11 22:09:28 INFO     
+file name: _internal.py
+line number: 224 
+error: 127.0.0.1 - - [11/Jun/2023 22:09:28] "GET /static/digikala_logo.png HTTP/1.1" 200 -
+occurred date & time: 2023-06-11 22:09:43 INFO     
+file name: _internal.py
+line number: 224 
+error: 127.0.0.1 - - [11/Jun/2023 22:09:43] "GET / HTTP/1.1" 200 -
+occurred date & time: 2023-06-11 22:09:43 INFO     
+file name: _internal.py
+line number: 224 
+error: 127.0.0.1 - - [11/Jun/2023 22:09:43] "[36mGET /static/input_page.css HTTP/1.1[0m" 304 -
+occurred date & time: 2023-06-11 22:09:43 INFO     
+file name: _internal.py
+line number: 224 
+error: 127.0.0.1 - - [11/Jun/2023 22:09:43] "[36mGET /static/js/input_page.js HTTP/1.1[0m" 304 -
+occurred date & time: 2023-06-11 22:09:43 INFO     
+file name: _internal.py
+line number: 224 
+error: 127.0.0.1 - - [11/Jun/2023 22:09:43] "[36mGET /static/digikala_logo.png HTTP/1.1[0m" 304 -
+occurred date & time: 2023-06-11 22:09:43 INFO     
+file name: _internal.py
+line number: 224 
+error: 127.0.0.1 - - [11/Jun/2023 22:09:43] "[36mGET /static/scrap.gif HTTP/1.1[0m" 304 -
+occurred date & time: 2023-06-11 22:09:50 INFO     
+file name: _internal.py
+line number: 224 
+error: 127.0.0.1 - - [11/Jun/2023 22:09:50] "GET / HTTP/1.1" 200 -
+occurred date & time: 2023-06-11 22:09:50 INFO     
+file name: _internal.py
+line number: 224 
+error: 127.0.0.1 - - [11/Jun/2023 22:09:50] "[36mGET /static/input_page.css HTTP/1.1[0m" 304 -
+occurred date & time: 2023-06-11 22:09:50 INFO     
+file name: _internal.py
+line number: 224 
+error: 127.0.0.1 - - [11/Jun/2023 22:09:50] "[36mGET /static/js/input_page.js HTTP/1.1[0m" 304 -
+occurred date & time: 2023-06-11 22:09:50 INFO     
+file name: _internal.py
+line number: 224 
+error: 127.0.0.1 - - [11/Jun/2023 22:09:50] "[36mGET /static/digikala_logo.png HTTP/1.1[0m" 304 -
+occurred date & time: 2023-06-11 22:09:50 INFO     
+file name: _internal.py
+line number: 224 
+error: 127.0.0.1 - - [11/Jun/2023 22:09:50] "[36mGET /static/scrap.gif HTTP/1.1[0m" 304 -
+occurred date & time: 2023-06-11 22:09:51 INFO     
+file name: _internal.py
+line number: 224 
+error: 127.0.0.1 - - [11/Jun/2023 22:09:51] "GET / HTTP/1.1" 200 -
+occurred date & time: 2023-06-11 22:09:51 INFO     
+file name: _internal.py
+line number: 224 
+error: 127.0.0.1 - - [11/Jun/2023 22:09:51] "[36mGET /static/input_page.css HTTP/1.1[0m" 304 -
+occurred date & time: 2023-06-11 22:09:51 INFO     
+file name: _internal.py
+line number: 224 
+error: 127.0.0.1 - - [11/Jun/2023 22:09:51] "[36mGET /static/js/input_page.js HTTP/1.1[0m" 304 -
+occurred date & time: 2023-06-11 22:09:51 INFO     
+file name: _internal.py
+line number: 224 
+error: 127.0.0.1 - - [11/Jun/2023 22:09:51] "[36mGET /static/digikala_logo.png HTTP/1.1[0m" 304 -
+occurred date & time: 2023-06-11 22:09:51 INFO     
+file name: _internal.py
+line number: 224 
+error: 127.0.0.1 - - [11/Jun/2023 22:09:51] "[36mGET /static/scrap.gif HTTP/1.1[0m" 304 -
+occurred date & time: 2023-06-11 22:09:56 INFO     
+file name: _internal.py
+line number: 224 
+error: 127.0.0.1 - - [11/Jun/2023 22:09:56] "GET / HTTP/1.1" 200 -
+occurred date & time: 2023-06-11 22:09:57 INFO     
+file name: _internal.py
+line number: 224 
+error: 127.0.0.1 - - [11/Jun/2023 22:09:57] "[36mGET /static/input_page.css HTTP/1.1[0m" 304 -
+occurred date & time: 2023-06-11 22:09:57 INFO     
+file name: _internal.py
+line number: 224 
+error: 127.0.0.1 - - [11/Jun/2023 22:09:57] "[36mGET /static/js/input_page.js HTTP/1.1[0m" 304 -
+occurred date & time: 2023-06-11 22:09:57 INFO     
+file name: _internal.py
+line number: 224 
+error: 127.0.0.1 - - [11/Jun/2023 22:09:57] "[36mGET /static/digikala_logo.png HTTP/1.1[0m" 304 -
+occurred date & time: 2023-06-11 22:09:57 INFO     
+file name: _internal.py
+line number: 224 
+error: 127.0.0.1 - - [11/Jun/2023 22:09:57] "[36mGET /static/scrap.gif HTTP/1.1[0m" 304 -
+occurred date & time: 2023-06-11 22:10:00 INFO     
+file name: _internal.py
+line number: 224 
+error: 127.0.0.1 - - [11/Jun/2023 22:10:00] "GET / HTTP/1.1" 200 -
+occurred date & time: 2023-06-11 22:10:00 INFO     
+file name: _internal.py
+line number: 224 
+error: 127.0.0.1 - - [11/Jun/2023 22:10:00] "[36mGET /static/input_page.css HTTP/1.1[0m" 304 -
+occurred date & time: 2023-06-11 22:10:00 INFO     
+file name: _internal.py
+line number: 224 
+error: 127.0.0.1 - - [11/Jun/2023 22:10:00] "[36mGET /static/js/input_page.js HTTP/1.1[0m" 304 -
+occurred date & time: 2023-06-11 22:10:00 INFO     
+file name: _internal.py
+line number: 224 
+error: 127.0.0.1 - - [11/Jun/2023 22:10:00] "[36mGET /static/digikala_logo.png HTTP/1.1[0m" 304 -
+occurred date & time: 2023-06-11 22:10:00 INFO     
+file name: _internal.py
+line number: 224 
+error: 127.0.0.1 - - [11/Jun/2023 22:10:00] "[36mGET /static/scrap.gif HTTP/1.1[0m" 304 -
+occurred date & time: 2023-06-11 22:10:02 INFO     
+file name: _internal.py
+line number: 224 
+error: 127.0.0.1 - - [11/Jun/2023 22:10:02] "GET / HTTP/1.1" 200 -
+occurred date & time: 2023-06-11 22:10:02 INFO     
+file name: _internal.py
+line number: 224 
+error: 127.0.0.1 - - [11/Jun/2023 22:10:02] "[36mGET /static/input_page.css HTTP/1.1[0m" 304 -
+occurred date & time: 2023-06-11 22:10:02 INFO     
+file name: _internal.py
+line number: 224 
+error: 127.0.0.1 - - [11/Jun/2023 22:10:02] "[36mGET /static/js/input_page.js HTTP/1.1[0m" 304 -
+occurred date & time: 2023-06-11 22:10:02 INFO     
+file name: _internal.py
+line number: 224 
+error: 127.0.0.1 - - [11/Jun/2023 22:10:02] "[36mGET /static/digikala_logo.png HTTP/1.1[0m" 304 -
+occurred date & time: 2023-06-11 22:10:02 INFO     
+file name: _internal.py
+line number: 224 
+error: 127.0.0.1 - - [11/Jun/2023 22:10:02] "[36mGET /static/scrap.gif HTTP/1.1[0m" 304 -
+occurred date & time: 2023-06-11 22:13:06 ERROR    
+file name: digikala.py
+line number: 101 
+error: Error scraping reviews: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:182:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:394:5
+element.find/</<@chrome://remote/content/marionette/element.sys.mjs:134:16
+Traceback (most recent call last):
+  File "/home/pasha/Documents/Saoshyant/Digikala-Data-Collector/digikala.py", line 79, in collector
+    comments = wait.until(EC.presence_of_element_located((By.ID, "commentSection")))
+  File "/home/pasha/.local/lib/python3.10/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:182:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:394:5
+element.find/</<@chrome://remote/content/marionette/element.sys.mjs:134:16
+
+occurred date & time: 2023-06-11 22:13:06 INFO     
+file name: _internal.py
+line number: 224 
+error: 127.0.0.1 - - [11/Jun/2023 22:13:06] "POST /submit HTTP/1.1" 200 -
+occurred date & time: 2023-06-11 22:13:07 INFO     
+file name: _internal.py
+line number: 224 
+error: 127.0.0.1 - - [11/Jun/2023 22:13:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+occurred date & time: 2023-06-11 22:13:32 INFO     
+file name: _internal.py
+line number: 224 
+error: 127.0.0.1 - - [11/Jun/2023 22:13:32] "GET / HTTP/1.1" 200 -
+occurred date & time: 2023-06-11 22:13:32 INFO     
+file name: _internal.py
+line number: 224 
+error: 127.0.0.1 - - [11/Jun/2023 22:13:32] "[36mGET /static/input_page.css HTTP/1.1[0m" 304 -
+occurred date & time: 2023-06-11 22:13:32 INFO     
+file name: _internal.py
+line number: 224 
+error: 127.0.0.1 - - [11/Jun/2023 22:13:32] "[36mGET /static/js/input_page.js HTTP/1.1[0m" 304 -
+occurred date & time: 2023-06-11 22:13:32 INFO     
+file name: _internal.py
+line number: 224 
+error: 127.0.0.1 - - [11/Jun/2023 22:13:32] "[36mGET /static/scrap.gif HTTP/1.1[0m" 304 -
+occurred date & time: 2023-06-11 22:13:32 INFO     
+file name: _internal.py
+line number: 224 
+error: 127.0.0.1 - - [11/Jun/2023 22:13:32] "GET /static/digikala_logo.png HTTP/1.1" 200 -
+occurred date & time: 2023-06-11 22:15:09 ERROR    
+file name: digikala.py
+line number: 101 
+error: Error scraping reviews: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3.10/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/usr/lib/python3.10/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.10/http/client.py", line 1374, in getresponse
+    response.begin()
+  File "/usr/lib/python3.10/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.10/http/client.py", line 287, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pasha/Documents/Saoshyant/Digikala-Data-Collector/digikala.py", line 64, in collector
+    driver.get(url)
+  File "/home/pasha/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 449, in get
+    self.execute(Command.GET, {"url": url})
+  File "/home/pasha/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 438, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/pasha/.local/lib/python3.10/site-packages/selenium/webdriver/remote/remote_connection.py", line 290, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/pasha/.local/lib/python3.10/site-packages/selenium/webdriver/remote/remote_connection.py", line 311, in _request
+    response = self._conn.request(method, url, body=body, headers=headers)
+  File "/usr/lib/python3.10/site-packages/urllib3/request.py", line 78, in request
+    return self.request_encode_body(
+  File "/usr/lib/python3.10/site-packages/urllib3/request.py", line 170, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/usr/lib/python3.10/site-packages/urllib3/poolmanager.py", line 376, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/usr/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3.10/site-packages/urllib3/util/retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/lib/python3.10/site-packages/urllib3/packages/six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/lib/python3.10/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3.10/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/usr/lib/python3.10/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.10/http/client.py", line 1374, in getresponse
+    response.begin()
+  File "/usr/lib/python3.10/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.10/http/client.py", line 287, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))

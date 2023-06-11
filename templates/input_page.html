@@ -1,43 +1,78 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>URL Form</title>
+    <!-- Load Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../static/input_page.css">
+  </head>
 
-<head>
-  <title>URL Form</title>
-  <!-- Load Bootstrap CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="../static/input_page.css">
-</head>
-<header class="header">Saoshyant</header>
-<body>
-  <!-- <h1>Digikala Web scraper</h1> -->
-  <div style="text-align: center; padding-top: 10px;">
-    <img src="../static/digikala_logo.png" alt="Description of image">
-  </div>
-  <div style="text-align: center; padding-top: 10px;">
-    <img src="../static/scrap.gif" alt="Description of image" height="280px" width="280px" style="margin-bottom: -300px;">
-  </div>
-  <div class="form-container" style="padding-top: 10px;">
-    <form method="POST" action="/submit" name="url-form">
-      <!-- Text field to get URL -->
-      <div class="mb-3">
-        <label for="url-input-1" class="form-label">Enter URL 1:</label>
-        <input type="text" id="url-input-1" name="url1" class="form-control" placeholder="https://example.com" required>
+  <body>
+
+    <!-- Header -->
+    <header class="header bg-primary text-light">
+      <div class="container py-3">
+        <h1 class="text-center mb-0">Saoshyant</h1>
+      </div>
+    </header>
+    
+    <main>
+      <!-- Logo -->
+      <div class="row justify-content-center align-items-center">
+        <div class="col-md-8 col-lg-6 text-center" style="margin: 30px;">
+          <img src="../static/digikala_logo.png" alt="Description of image" class="img-fluid">
+        </div>
       </div>
 
-      <!-- Container for additional text fields and buttons -->
-      <div id="additional-fields-container" style="margin-bottom: 10px;"></div>
-      <button type="button" id="add-button" class="btn btn-primary me-2" >Add URL</button>
-      <button type="button" id="delete-button" class="btn btn-danger me-2">Delete URL</button>
-      <button type="submit" class="btn btn-primary">Scrap</button>
-    </form>
-  </div>
+      <section class="form-container my-5">
+        <div class="container">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-md-6 col-lg-5">
+              <div class="card">
+                <img src="../static/scrap.gif" alt="Description of image" class="card-img-top" height="280px" width="280px">
+                <div class="card-body">
+                  <form method="POST" action="/submit" name="url-form">
+                    <!-- Text field to get URL -->
+                    <div class="mb-3">
+                      <label for="url-input-1" class="form-label">Enter URL 1:</label>
+                      <input type="text" id="url-input-1" name="url1" class="form-control" placeholder="https://example.com" required>
+                    </div>
 
-  <!-- Load Bootstrap JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="../static/js/input_page.js"></script>
-  <footer>
-    &copy; 2023 Saoshyant Website. All rights reserved.
-  </footer>
-</body>
+                    <!-- Container for additional text fields and buttons -->
+                    <div id="additional-fields-container"></div>
+                    <div class="form-buttons d-flex justify-content-between">
+                      <button type="button" id="add-button" class="btn btn-primary me-2">Add URL</button>
+                      <button type="button" id="delete-button" class="btn btn-danger me-2">Delete URL</button>
+                      <button type="submit" class="btn btn-primary">Scrap</button>
+                    </div>
+                  </form>
+                  <div class="alert alert-success mt-3" role="alert" style="display: none;">
+                    Scraping successful!
+                  </div>
+                  <div class="alert alert-danger mt-3" role="alert" style="display: none;">
+                    Scraping failed. Please check your input and try again.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
+    <footer class="bg-primary text-light py-3">
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-6 col-lg-5 text-center">
+            &copy; 2023 Saoshyant Website. All rights reserved.
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Load Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../static/js/input_page.js"></script>
+
+  </body>
 </html>

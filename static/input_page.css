@@ -1,35 +1,89 @@
-.form-container {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     height: 100vh;
-   }
+/* Default styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
 
-   
-   form {
-     max-width: 500px;
-     margin: auto;
-   }
+/* Set color scheme */
+:root {
+  --primary-color: #007bff;
+  --secondary-color: #6c757d;
+  --light-color: #f8f9fa;
+  --dark-color: #343a40;
+}
 
-   .header {
-    text-align: center;
-    background-color: rgb(14, 0, 76);
-    /* height: 60px; */
-    font-size: 55px;
-    color: aliceblue;
+/* Set typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+
+p, input, label, button {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: var(--dark-color);
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  /* Adjust form width for smaller screens */
+  form {
+    max-width: 90%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* Adjust form container margin for smaller screens */
+  .form-container {
+    margin: 20px auto;
   }
 
-  footer{
-    text-align: center;
-    background-color: rgb(14, 0, 76);
-    /* height: 60px; */
-    font-size: 25px;
-    color: aliceblue;
-   }
-
-  h1 {
-    text-align: center;
-    padding-top: 20px;
+  /* Adjust input width for smaller screens */
+  input[type="text"] {
+    width: 100%;
   }
 
- 
+  /* Adjust button margin for smaller screens */
+  .btn {
+    margin: 10px 0;
+  }
+}
+
+/* Add spacing */
+.my-3 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.mt-3 {
+  margin-top: 1.5rem;
+}
+
+.mb-3 {
+  margin-bottom: 1.5rem;
+}
+
+.mx-2 {
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+/* Add focus styles */
+.form-control:focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 0.25rem rgba(0, 123, 255, 0.25);
+}
+
+/* Add success and error message styles */
+.alert-success {
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+  color: #155724;
+}
+
+.alert-danger {
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+  color: #721c24;
+}

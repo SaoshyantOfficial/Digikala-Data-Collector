@@ -1,33 +1,56 @@
+import logging
 from flask import Flask, render_template, request
 import digikala
 
 app = Flask(__name__)
 
-# Route for the form page
+class InvalidInputError(Exception):
+    pass
+
 @app.route('/')
 def index():
+    """
+    Render the input page.
+    """
     return render_template('input_page.html')
 
-# Route for handling the form submission
+
 @app.route('/submit', methods=['POST'])
 def submit():
-     
-    # Get the URLs from the form
-    urls = []
-    for key, value in request.form.items():
-        if key.startswith('url'):
-            urls.append(value)
+    """
+    Handle the form submission.
+    """
 
-    # Print the URLs
-    print(urls)
-   
+    try:
+        # Get the review URLs from the form
+        review_urls = []
+        for key, value in request.form.items():
+            if key.startswith('url'):
+                if not value.startswith('https://www.digikala.com/product/'):
+                    raise InvalidInputError("Invalid review URL: {}".format(value))
+                review_urls.append(value)
 
+        # Scrape reviews from the review URLs
+        instance = digikala.Digikala(review_urls)
+        instance.collector()
 
-    for i in urls:
-         instance = digikala.data_collector(i) 
-     
-    # Redirect to a success page or render a template with the URLs
-    return render_template('result_page.html', urls=urls)
+        # Check if any error has been occurred
+        if instance.error:
+            return render_template("errorPage.html", message = "خطایی رخ داد، لطفا فایل لاگ را بررسی کنید")
+        
+        else: # Render result page if every thing isok
+            return render_template('result_page.html')
+            
+    except InvalidInputError as e:
+        # Return a 400 Bad Request response if the input was invalid
+        logging.error(str(e))
+        return ('Invalid input: {}'.format(str(e)), 400)
+
+    except Exception as e:
+        # Log any other errors and return a 500 Internal Server Error response
+        logging.exception("Error handling form submission: %s", e)
+        return ('Internal server error', 500)
+
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)
