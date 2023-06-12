@@ -87,3 +87,12 @@ p, input, label, button {
   border-color: #f5c6cb;
   color: #721c24;
 }
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}

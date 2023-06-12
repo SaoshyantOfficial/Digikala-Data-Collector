@@ -54,8 +54,12 @@ h1 {
 }
 
 .footer {
-  bottom: 0;
+  position: fixed;
   left: 0;
-  right: 0;
-  z-index: 100;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
 }
+
